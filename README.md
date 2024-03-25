@@ -1,13 +1,13 @@
-#Carbon emission project - SQL
-***This is a SQL project idea suggested by Datacamp.com.***
+# Carbon emission project - SQL
+* This is a SQL project idea suggested by Datacamp.com.*
 
-***In this project, I will analyze the carbon emission data available publicly on nature.com to :
+In this project, I will analyze the carbon emission data available publicly on nature.com to :
 1. Explore the carbon footprint of various industries from the most recent year 
-2. Determine the highest emitting industries***
+2. Determine the highest emitting industries
 
-##About the project:
+## About the project:
 
-######- A table is created to store the dataset as follows:
+###### - A table is created to store the dataset as follows:
 
 ```
         product_emission
@@ -25,17 +25,17 @@
         Downstream_percent_total_pcf    VARCHAR
 ```
 
-######-   Data in the csv file is copied into product_emission table
+###### -   Data in the csv file is copied into product_emission table
 
-######- SQL syntax used :
+###### - SQL syntax used :
   Aggregate function : MAX, COUNT, SUM
   GROUPBY, ORDER BY, WHERE
 
-##About the dataset:
+## About the dataset:
 
-######- The original dataset can be found on https://www.nature.com/articles/s41597-022-01178-9 under reference pt.31
-######- Part of the original dataset extracted for the purpose of this project. 
-######- The new dataset contains the following fields:
+###### - The original dataset can be found on https://www.nature.com/articles/s41597-022-01178-9 under reference pt.31
+###### - Part of the original dataset extracted for the purpose of this project. 
+###### - The new dataset contains the following fields:
 
 ```
 Original column name                            Renamed as                      Datatype
